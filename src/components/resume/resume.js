@@ -19,8 +19,8 @@ export default  class Resume extends Component {
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfArriving}/{item.YearOfArriving} - {item.MonthOfLeaving}/{item.YearOfLeaving}</em></p>
                           <p>
-                          {item.Achievements.map((achivments) => {
-                            return (<p>{achivments}</p>);
+                          {item.Achievements.map((achivements) => {
+                            return (<li>{achivements}</li>);
                           })}
                           </p>
                       </div>
@@ -43,10 +43,7 @@ export default  class Resume extends Component {
                       <h3>{item.UniversityName}</h3>
                         <p className="info">
                           {item.specialization}
-                        <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                        <p>
-                          {item.Achievements}
-                        </p>
+                        <span>&bull;</span> <em className="date">{item.YearOfStarting} - {item.YearOfPassing}</em></p>
                     </div>
                   </div>
                   )
