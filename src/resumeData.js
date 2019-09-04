@@ -2,7 +2,7 @@ let resumeData = {
   "imagebaseurl":"https://techonoeticsclub.github.io/",
   "name": "Vera Testard",
   "role": "Développeuse Frontend",
-  "linkedinId":"Your LinkedIn Id",
+  "linkedinId":"veratestard",
   "skypeid": "Your skypeid",
   "roleDescription": " ",
   "socialLinks":[
@@ -52,7 +52,7 @@ let resumeData = {
       "specialization":"Développeuse JS React en formation",
       "MonthOfArriving":"02",
       "YearOfArriving": "2019",
-      "MonthOfLeaving":"06",
+      "MonthOfLeaving":"07",
       "YearOfLeaving":"2019",
       "Achievements":["Formation basée sur la pratique. Réalisation d'un site web en équipe de 5 personnes, conception à l'aide d'une maquette / wireframe, utilisation de HTML, CSS, JavaScript, Bootstrap, mise en pratique de Git https://bepatest.github.io/Yoshi-save-the-baby/index.html", 
                       "Création d'un jeu vidéo en Javascript React sur l'univers des Pokemons, conception à l'aide d'une maquette / wireframe, gestion du projet en méthode Scrum en équipe de 6 personnes https://pokeymon.netlify.com",
@@ -114,16 +114,55 @@ let resumeData = {
       "Achievements":[]
     }
   ],
-  "skillsDescription":"Your skills here",
+  "skillsDescription":"Programmation Web",
   "skills":[
     {
-      "skillname":"HTML5"
-    },
-    {
-      "skillname":"CSS"
-    },
-    {
       "skillname":"Reactjs"
+    },
+    {
+      "skillname":"Javascript"
+    },
+    {
+      "skillname":"HTML / CSS / Bootstrap"
+    },
+    {
+      "skillname":"Git"
+    },
+    {
+      "skillname":"MySQL"
+    },
+    {
+      "skillname":"API REST"
+    },
+    {
+      "skillname":"NodeJS"
+    },
+    {
+      "skillname":"Redux"
+    }    
+  ],
+  "softSkillsDescription":"Compétences non techniques",
+  "softSkills":[
+    {
+      "softSkillname":"Communication"
+    },
+    {
+      "softSkillname":"Travail en équipe"
+    },
+    {
+      "softSkillname":"L’adaptabilité"
+    },
+    {
+      "softSkillname":"Méthode Agile Scrum"
+    },
+    {
+      "softSkillname":"Français - bilingue"
+    },
+    {
+      "softSkillname":"Anglais - bilingue"
+    },
+    {
+      "softSkillname":"Russe - langue maternelle"
     }
   ],
   "portfolio":[
@@ -148,14 +187,9 @@ let resumeData = {
       "imgurl":"images/portfolio/phone.jpg"
     }
   ],
-  "testimonials":[
+  "quotations":[
     {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
-    },
-    {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
+      "description":"Never listen to people who say: “It’s impossible“"
     }
   ]
 }

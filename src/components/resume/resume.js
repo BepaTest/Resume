@@ -14,9 +14,9 @@ export default  class Resume extends Component {
                   return(
                     <div className="row item">
                       <div className="twelve columns">
-                          <h3>{item.CompanyName}</h3>
+                          <h3>{item.specialization}</h3>
                           <p className="info">
-                          {item.specialization}
+                          {item.CompanyName}
                           <span>&bull;</span> <em className="date">{item.MonthOfArriving}/{item.YearOfArriving} - {item.MonthOfLeaving}/{item.YearOfLeaving}</em></p>
                           <p>
                           {item.Achievements.map((achivements) => {
@@ -40,9 +40,9 @@ export default  class Resume extends Component {
                 return(
                   <div className="row item">
                     <div className="twelve columns">
-                      <h3>{item.UniversityName}</h3>
+                      <h3>{item.specialization}</h3>
                         <p className="info">
-                          {item.specialization}
+                          {item.UniversityName}
                         <span>&bull;</span> <em className="date">{item.YearOfStarting} - {item.YearOfPassing}</em></p>
                     </div>
                   </div>
@@ -65,8 +65,25 @@ export default  class Resume extends Component {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
                       <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
+                      <em>{item.skillname}</em>
+                      </li>
+                    )
+                  })
+                }
+              </ul>
+            </div>
+          </div>
+          <div className="nine columns main-col">
+            <p>
+            {resumeData.softSkillsDescription}
+            </p>
+            <div className="bars">
+              <ul className="skills">
+                {
+                  resumeData.softSkills && resumeData.softSkills.map((item) => {
+                    return(
+                      <li>
+                      <em>{item.softSkillname}</em>
                       </li>
                     )
                   })
